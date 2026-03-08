@@ -11,17 +11,41 @@ import Layout from '../layouts/BlogPost.astro';
 	<p>
 		Dave's Game Emporium was founded by David P. Ellis in 2015.
 	</p>
-	<p>		We are a small business based out of Sainte Genevieve Missouri, USA.	</p>
-	<p>		We specialize in refurbishing and modding retro game consoles such as the Nintendo		Gameboy line, NES, SNES, N64, as well as Sega handheld consoles and control decks.	</p>
-	<p>		We also work on other consoles, from the early "Pong" T.V. consoles up to the		Playstation 2 generation of game consoles/systems.	</p>
-	<p>		Visit our <a href="https://www.ebay.com/usr/dellis1499">Ebay page</a> where we also
-		sell games, accessories, and other odds and ends.	</p>
+	<p>
+		We are a small business based out of Sainte Genevieve Missouri, USA.
+	</p>
+	<p>
+		We specialize in refurbishing and modding retro game consoles such as the Nintendo
+		Gameboy line, NES, SNES, N64, as well as Sega handheld consoles and control decks.
+	</p>
+	<p>
+		We also work on other consoles, from the early "Pong" T.V. consoles up to the
+		Playstation 2 generation of game consoles/systems.
+	</p>
+	<p>
+		Visit our <a href="https://www.ebay.com/usr/dellis1499">Ebay page</a> where we also
+		sell games, accessories, and other odds and ends.
+	</p>
 	<h4>Contact Us</h4>
-	<p>	<form method="POST" action="https://formspree.io/f/mjgavpar">		<label for="name">Full Name:</label>
-		<br>		<input id="name" type="text" name="name" pattern="[A-Za-z]+" required />		<br>		<br>
-		<label for="email">Email Address:</label>		<br>
-		<input id="email" type="email" name="email" required />		<br>		<br>
-		<label for="message">Message:</label>		<br>
-		<textarea id="message" name="message" required></textarea>		<br>
-		<button type="submint">Submit</button>	</form>	</p>
+	<p>
+	<div class="box">
+		<form method="POST" action="https://formspree.io/f/mjgavpar">
+			<label for="name">Name:</label>
+			<br>
+			<input id="name" type="text" name="name" pattern="[A-Za-z *]+{20}" required />
+			<br>
+			<br>
+			<label for="email">Email Address:</label>
+			<br>
+			<input id="email" type="email" name="email" required />
+			<br>
+			<br>
+			<label for="message">Message:</label>
+			<br>
+			<textarea id="message" name="message" required></textarea>
+			<br>
+			<button type="submit">Submit</button>
+		</form>
+		</div>
+	</p>
 </Layout>
