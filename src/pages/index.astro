@@ -20,13 +20,14 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			<p>
 				We currently only sell locally, and we have limited stock on <a href="https://www.ebay.com/usr/dellis1499">Ebay</a>
 			</p>			<h4>Contact Us</h4>
-			<p>			<form method="POST" action="https://formspree.io/f/mjgavpar">				<label for="name">Full Name:</label>
+			<p>
+			<div class="box">			<form method="POST" action="https://formspree.io/f/mjgavpar">				<label for="name">Full Name:</label>
 				<br>				<input id="name" type="text" name="name" pattern="[A-Za-z]+" required />				<br>				<br>
 				<label for="email">Email Address:</label>				<br>
 				<input id="email" type="email" name="email" required />				<br>				<br>
 				<label for="message">Message:</label>				<br>
 				<textarea id="message" name="message" required></textarea>				<br>
-				<button type="submint">Submit</button>			</form>			</p>
+				<button type="submint">Submit</button>			</form>			</p>			</div>
 		</main>
 		<Footer />
 	</body>

@@ -153,11 +153,3 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
-
-.box {
-	margin:0 auto;
-	width:100%;
-	padding:20px;
-	background:#f9f9f9;
-	border:2px solid #333;
-}
