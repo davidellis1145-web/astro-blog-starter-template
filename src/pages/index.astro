@@ -15,7 +15,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 		<main>
 			<h1>Coming Soon!</h1>
 			<p>
-				Welcome to the official webpage of Dave's Game Emporium. This website is currenty under construction.
+				Welcome to the official webpage of Dave's Game Emporium. This website is currently under construction.
 			</p>
 			<p>
 				We currently only sell locally, and we have limited stock on <a href="https://www.ebay.com/usr/dellis1499">Ebay</a>
@@ -24,9 +24,9 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 			<p>
 			<div class="box">
 			<form method="POST" action="https://formspree.io/f/mjgavpar">
-				<label for="name">Full Name:</label>
+				<label for="name">Name:</label>
 				<br>
-				<input id="name" type="text" name="name" pattern="[A-Za-z *]+" required />
+				<input id="name" type="text" name="name" pattern="[A-Za-z *]+{20}" required />
 				<br>
 				<br>
 				<label for="email">Email Address:</label>
@@ -38,7 +38,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				<br>
 				<textarea id="message" name="message" required></textarea>
 				<br>
-				<button type="submint">Submit</button>
+				<button type="submit">Submit</button>
 			</form>
 			</p>
 			</div>
